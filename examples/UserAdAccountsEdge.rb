@@ -29,6 +29,6 @@ FacebookAds.configure do |config|
 end
 
 user = FacebookAds::User.get(id)
-adaccountss = user.adaccounts({
+adaccounts = user.adaccounts({
     fields: {  },
 })
